@@ -9,7 +9,6 @@ public class DiazVegaTest {
 		int oscarsStudentID = 0610; // only the last 4 digits
 		
 		Student oscarDiazVega = new Student(name, oscarsIntroduction, oscarsStudentID);
-		System.out.println(oscarDiazVega);
 		
 		
 	}
