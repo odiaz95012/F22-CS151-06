@@ -16,7 +16,11 @@ public class Person {
 	public Person() {
 		name = "Abhishek";
 	}
-
+	public Person(Person person) {
+		this.name = person.name;
+		// and so on
+		
+	}
 	public String printInfo() {
 		return "Hello, I am " + this.name;
 	}
