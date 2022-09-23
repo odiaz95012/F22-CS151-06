@@ -24,11 +24,29 @@ public class Zoo {
 		this.employees = new ArrayList<>();
 		this.visitors = new ArrayList<>();
 	}
-
-	public void addAnimal(Animal animal) {
-		this.animals.put(animal.name, animal);
-		this.numberOfAnimals++;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		String s = "abc";
+		String t = "def";
+		String u = s + t; // not computationally efficient
+		
+		
+		
+		// reverse a string
+		StringBuilder sb = new StringBuilder(s);
+//		sb.append(s);
+		sb.append(t);
+		
+		sb.toString();
 	}
-
 	// same for employee and visitor
 }
